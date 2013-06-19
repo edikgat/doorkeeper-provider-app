@@ -6,7 +6,7 @@ module Api::V1
     respond_to :json
 
     def index
-      respond_with User.recent
+      respond_with User.all
     end
 
     def create

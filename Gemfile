@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
-
+gem 'therubyracer', require: "v8"
+gem 'mysql2'
 gem 'rails', '3.1.10'
 gem 'jquery-rails'
 gem 'devise'
@@ -8,8 +9,7 @@ gem 'faker'
 
 gem 'coderay', '~> 0.9.8'
 gem 'redcarpet', '2.0.0b5'
-
-gem 'pg', :group => :production
+gem 'omniauth-facebook'
 
 group :assets do
   gem 'sass-rails',   '~> 3.1.4'
@@ -18,6 +18,5 @@ group :assets do
 end
 
 group :development, :test do
-  gem 'sqlite3'
   gem 'rspec-rails', '~> 2.8.1'
 end

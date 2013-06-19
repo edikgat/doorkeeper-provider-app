@@ -1,25 +1,5 @@
 # Doorkeeper Provider App
 
-[![Build Status](https://secure.travis-ci.org/applicake/doorkeeper-provider-app.png)](http://travis-ci.org/applicake/doorkeeper-provider-app)
-
-This app is an example of an OAuth 2 provider using [doorkeeper gem](https://github.com/applicake/doorkeeper), [Rails 3.1](http://rubyonrails.org/) and [Devise](https://github.com/plataformatec/devise). Check out the [app hosted on heroku](http://doorkeeper-provider.herokuapp.com/) for a live demo.
-
-## About Doorkeeper Gem
-
-For more information [about the gem](https://github.com/applicake/doorkeeper), [documentation](https://github.com/applicake/doorkeeper#readme), [wiki](https://github.com/applicake/doorkeeper/wiki/_pages) and another resources, check out the project [on GitHub](https://github.com/applicake/doorkeeper)
-
-## Installation
-
-First clone the [repository from GitHub](https://github.com/applicake/doorkeeper-provider-app):
-
-    git clone git://github.com/applicake/doorkeeper-provider-app.git
-
-Install all dependencies with:
-
-    bundle install
-
-After that you're almost ready to go.
-
 ## Configuration
 
 The configuration is quite simple, all you need to do is run:
@@ -100,5 +80,3 @@ If you attempt to access any of the protected resources without an proper access
 ## Client applications
 
 You can manage all client applications in `/oauth/applications`.
-
-If you want to create a client application, check out [this example using Sinatra](http://doorkeeper-sinatra.herokuapp.com) and this [another one using Rails and Devise](http://doorkeeper-devise.herokuapp.com).
